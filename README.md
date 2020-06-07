@@ -3,6 +3,8 @@
 ## Description
 This was a short, fun project to inject some more oddness into the world.  Upon pressing the 'gogo' button, five (5) colors are randomly displayed.  They harken back to the internet of old.  They follow no rules. They have no masters.
 
+Relive the 90s [HERE](https://wild-palettes.web.app/).
+
 ## Screen Shots
 Page Load <br/>
 <img src=images/blank.png width="600" alt="page load"/>
