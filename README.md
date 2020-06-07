@@ -5,16 +5,16 @@ This was a short, fun project to inject some more oddness into the world.  Upon 
 
 ## Screen Shots
 Page Load <br/>
-<img src=images/ScreenShots/blank.png width="600" alt="page load"/>
+<img src=images/blank.png width="600" alt="page load"/>
 
 Random Palette #1 <br/>
-<img src=images/ScreenShots/blue.png width="600" alt="palette 1"/>
+<img src=images/blue.png width="600" alt="palette 1"/>
 
 Random Palette #2 <br/>
-<img src=images/ScreenShots/light-dark.png width="600" alt="palette 2"/>
+<img src=images/light-dark.png width="600" alt="palette 2"/>
 
 Random Palette #3 <br/>
-<img src=images/ScreenShots/purple-green.png width="600" alt="palette 3"/>
+<img src=images/purple-green.png width="600" alt="palette 3"/>
 ## Technologies used
 - HTML
 - CSS
