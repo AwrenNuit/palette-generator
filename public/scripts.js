@@ -1,5 +1,6 @@
 const miniPage = ['mini-container', 'mini-header', 'mini-content', 'mini-btn-secondary', 'mini-btn-primary'];
 const palette = ['first', 'second', 'third', 'fourth', 'fifth'];
+const paletteDisplay = ['one', 'two', 'three', 'four', 'five'];
 const range = [];
 setRange();
 document.getElementById("generate-btn").addEventListener("click", commenceTheming);
@@ -12,8 +13,11 @@ function assignRandomColor() {
 }
 
 function commenceTheming() {
-  for(let square of palette) {
-    document.getElementById(square).style.backgroundColor = assignRandomColor();
+  for(let i=0; i<5; i++) {
+    const thisPalette = document.getElementById(palette[i]);
+    const thisPaletteDisplay = document.getElementById(paletteDisplay[i]);
+    thisPalette.style.backgroundColor = assignRandomColor();
+    thisPaletteDisplay.innerHTML = thisPalette.style.backgroundColor;
   }
   concludeTheming();
 }
