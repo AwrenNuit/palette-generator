@@ -10,13 +10,13 @@ Page Load <br/>
 <img src=images/blank.png width="600" alt="page load"/>
 
 Random Palette #1 <br/>
-<img src=images/brown.png width="600" alt="sample palette 1"/>
+<img src=images/pink.png width="600" alt="sample palette 1"/>
 
 Random Palette #2 <br/>
-<img src=images/lemon.png width="600" alt="sample palette 2"/>
+<img src=images/grey.png width="600" alt="sample palette 2"/>
 
 Random Palette #3 <br/>
-<img src=images/tomato.png width="600" alt="sample palette 3"/>
+<img src=images/green.png width="600" alt="sample palette 3"/>
 
 ## Technologies used
 - HTML
