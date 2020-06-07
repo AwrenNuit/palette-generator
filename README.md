@@ -1,7 +1,7 @@
 # Wild Palette Generator
 
 ## Description
-This was a short, fun project to inject some more oddness into the world.  Upon pressing the 'gogo' button, five (5) colors are randomly displayed.  They follow no traditional color scheme rules.
+This was a short, fun project to inject some more oddness into the world.  Upon pressing the 'gogo' button, five (5) colors are randomly displayed.  They harken back to the internet of old.  They follow no rules. They have no masters.
 
 ## Screen Shots
 Page Load <br/>
@@ -15,6 +15,7 @@ Random Palette #2 <br/>
 
 Random Palette #3 <br/>
 <img src=images/purple-green.png width="600" alt="palette 3"/>
+
 ## Technologies used
 - HTML
 - CSS

@@ -1,3 +1,4 @@
+const miniPage = ['mini-container', 'mini-header', 'mini-content', 'mini-btn-secondary', 'mini-btn-primary'];
 const palette = ['first', 'second', 'third', 'fourth', 'fifth'];
 const range = [];
 setRange();
@@ -11,9 +12,20 @@ function assignRandomColor() {
 }
 
 function commenceTheming() {
-  for(let num of palette) {
-    document.getElementById(num).style.backgroundColor = assignRandomColor();
+  for(let square of palette) {
+    document.getElementById(square).style.backgroundColor = assignRandomColor();
   }
+  concludeTheming();
+}
+
+function concludeTheming() {
+  document.getElementById(miniPage[0]).style.backgroundColor = document.getElementById(palette[0]).style.backgroundColor;
+  document.getElementById(miniPage[1]).style.color = document.getElementById(palette[1]).style.backgroundColor;
+  document.getElementById(miniPage[2]).style.color = document.getElementById(palette[2]).style.backgroundColor;
+  document.getElementById(miniPage[3]).style.borderColor = document.getElementById(palette[4]).style.backgroundColor;
+  document.getElementById(miniPage[3]).style.color = document.getElementById(palette[3]).style.backgroundColor;
+  document.getElementById(miniPage[4]).style.backgroundColor = document.getElementById(palette[4]).style.backgroundColor;
+  document.getElementById(miniPage[4]).style.color = document.getElementById(palette[3]).style.backgroundColor;
 }
 
 function setColor() {
